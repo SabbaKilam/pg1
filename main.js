@@ -19,7 +19,6 @@ $$("#menu").toggle(openMenu, closeMenu);
 //===============================================
 //---------under the hood------------------------
 function openMenu(){
-    //document.getElementById("frontPanel").style.left = "80%";
     $$("#frontPanel")
         .css("right","-40%")
         .css("left", "60%")
